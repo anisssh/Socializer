@@ -1,4 +1,4 @@
-import { SupabaseClient, type User } from "@supabase/supabase-js";
+import {  type User } from "@supabase/supabase-js";
 import { createContext, useContext, useEffect, useState } from "react";
 import { supabase } from "../supabase-client";
 interface AuthContextType {
